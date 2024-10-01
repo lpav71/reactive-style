@@ -1,0 +1,9 @@
+#myElement {
+    width: 400px;
+    height: 400px;
+    background: #a6ddb6;
+}
+
+.active {
+    border: 5px solid #1f35a6;
+}
