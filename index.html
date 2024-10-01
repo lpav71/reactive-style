@@ -12,8 +12,10 @@
 <div id="myElement">
     <div>Текст</div>
 </div>
-<button onclick="clearAll()">Сброить стили и классы</button>
-<input id="color-select" type="color" onchange="setColor()">
+<button onclick="clearAll()" style="margin-top: 20px">Сброить стили и классы</button><br />
+
+<label for="color-select">Выберите цвет</label>
+<input style="margin: 20px auto auto 10px;" id="color-select" type="color" onchange="setColor()">
 
 <script src="reactive-style.js"></script>
 <script src="script.js"></script>
